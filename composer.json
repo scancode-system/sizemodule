@@ -1,0 +1,30 @@
+{
+    "name": "scancode-system/size-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Size\\Providers\\SizeServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Size\\": ""
+        }
+    },
+    "type": "laravel-module",
+    "require": {
+        "scancode-system/product-module":"^1.0",
+        "scancode-system/variation-module":"^1.0"
+    }
+}
